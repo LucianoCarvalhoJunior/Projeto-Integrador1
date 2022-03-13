@@ -1,0 +1,14 @@
+body{
+	background: #e8e8d9 url('IMG/arquivo.png');
+	font: 16px Arial,Helvetica,sans-serif;
+}
+	#principal{
+		border: 1px solid red;
+		width: 900px;
+        
+	}
+	#menu{
+		background: white;
+		border: 1px solid red;
+		padding: 30px; /*Espaçamento interno */
+    }
