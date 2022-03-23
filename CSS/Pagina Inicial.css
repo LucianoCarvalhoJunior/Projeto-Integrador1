@@ -1,34 +1,53 @@
 
+.container{/*Bloco da página inteira*/
+
+	background-color: white;;
+	width: 99%;
+	
+
+}
+
 .cabeçalho{
 
-	
+	margin: 0,4% ;
 	background-image: url(/IMG/capa.png);
-	border: ;
+	padding: 2%;
+	word-spacing: 15px;
+	text-align: center;
+	border-radius: 10px;
 	
-	width: 100%;
+
+	
+
+}
+
+.cabeçalho a{
+
+	text-decoration:none;
+	text-decoration: black;
+	
+
+	
+}
+
+
+.menu1{/*Parte escrita*/
 
 
 
 }
 
 
-.menu{
+.menu2{/*Parte visual*/
 
-	background: url("/IMG/capa.png")
-	border: 1px solid red;
-	padding: 30px; /*Espaçamento interno */
-	/**/
+
 }
 
-.principal{
-	border: 1px solid red;
-	width: 900px;
+
+
+.rodapé{
+	
         
 }
 
 
-.container-cabeçalho{
-	background-image: url("/IMG/capa.png");
-	font: 16px Arial,Helvetica,sans-serif;
-
-}
