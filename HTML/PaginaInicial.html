@@ -5,48 +5,132 @@
 
     <title>Uni-Vagas</title>
     <meta charset="UTF-8"> <!--importar caracteres para o navegador-->
-    <link rel="stylesheet" type="text/CSS" href="/CSS/Pagina Inicial.css"/>
+    <link rel="stylesheet" type="text/CSS" href="/CSS/PaginaInicial.css"/>
 
     <!--Importação do Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 	
+   
 
 </head>
 
-<body class="container">
+<body>
 
-	<section class="cabeçalho">
+    <main>  
 
-        <div class="">
+          <section class="cabeçalho">
 
-		
-            <a href="PaginaInicial.html">Home</a>
-            <a href="PaginaDeLogin.html">Entrar</a>
-            <a href="PaginaDeCadastro.html">Cadastre-se</a>
-            <a href="PaginaDeContato.html">Contato</a>
+            <img src="/IMG/IconeBolinha.png" style="width: 3%; margin-right: 99%;">
+
+            <div class="">
+              
+              <a style="color: white;" href="PaginaInicial.html">  Home</a>
+              <a style="color: white;" href="PaginaDeLogin.html">Entrar</a>
+              <a style="color: white;" href="PaginaDeCadastro.html">Cadastre-se</a>
+              <a style="color: white;" href="PaginaDeContato.html">Contato</a>
     
-    
-        </div>
+            </div>
 
 
-    </section>
-	
-
-
-
-
-
-    <section class=""><!--Corpo-->
+          </section>
         
-       <div class="">
+
+
+
+
+
+          <section class="corpo"><!--Corpo-->
+
+            <img style="width: 30%; padding: 10px; margin: 20px;"  src="/IMG/IconeFagoc.png">
+
+              <div class="menu1">
+
+                
+
+                  <div class="clearfix">
+
+                      
+                      <img style="width: 25% ;" src="/IMG/IconeVagas.png" class="col-md-6 float-md-end mb-3 ms-md-3" alt="10" >
+                    
+                    <p>
+                        A paragraph of placeholder text. We're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.
+                    </p>
+                    
+                      <p>
+                        As you can see the paragraphs gracefully wrap around the floated image. Now imagine how this would look with some actual content in here, rather than just this boring placeholder text that goes on and on, but actually conveys no tangible information at. It simply takes up space and should not really be read.
+                      </p>
+                    
+
+                  </div>
+            
+              </div>
 
 
 
 
 
 
-       </div>
-        
+
+
+
+
+
+              <div class="menu2">
+
+                  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                      <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      </div>
+                      <!--VAGA 1-->
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="/IMG/ExemploVaga.jpg" class="d-block w-100" alt="10">
+                          <div class="carousel-caption d-none d-md-block">
+                            <h5> </h5> <!--Titulo-->
+                            <p> </p><!--Descrição da vaga-->
+                          </div>
+                        </div>
+          
+                        <!--VAGA 2-->
+                        <div class="carousel-item">
+                          <img src="/IMG/ExemploVaga2.jpg" class="d-block w-100" alt="...">
+                          <div class="carousel-caption d-none d-md-block">
+                            <h5> </h5><!--Titulo-->
+                            <p> </p><!--Descrição da vaga-->
+                          </div>
+                        </div>
+          
+                        <!--Vaga 3-->
+                        <div class="carousel-item">
+                          <img src="/IMG/ExemploVaga3.jpg" class="d-block w-100" alt="...">
+                          <div class="carousel-caption d-none d-md-block">
+                            <h5>  </h5><!--Titulo-->
+                            <p>  </p><!--Descrição da vaga-->
+                          </div>
+                        </div>
+                      </div>
+          
+          
+          
+          
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+          
+
+              </div>
+              
+      </main>      
+                
+
 
 
     </section>
@@ -56,14 +140,21 @@
         
 
     
-    <section class=""><!--Rodapé-->
+    <section class="rodapé"><!--Rodapé-->
 
-        <div class="">
+        <div style="margin-right: 60%;">
+          <h3>Ainda precisa de ajuda?</h3>
+          <p>Entre em contato conosco!</p>
 
-
-
+         
         </div>
-                
+        
+      <div style="margin-left: 60%;">
+
+        <p>Nos informe seu email:</p>
+        <input style="width: 60%;" type="text" name="Email" size="100" /> 
+
+      </div>
             
         
         
