@@ -1,0 +1,89 @@
+
+
+.container{/*Bloco da página inteira*/
+
+	background-color: white;;
+	width: 99%;
+	
+
+}
+
+.cabeçalho{
+
+	margin: 0,4% ;
+	background-image: url(/IMG/capa.png);
+	padding: 2%;
+	word-spacing: 15px;
+	text-align: center;
+	border-radius: 10px;
+	
+
+	
+
+}
+
+.cabeçalho a{
+
+	text-decoration:none;
+	text-decoration: black;
+	
+
+	
+}
+
+
+.menu1{/*Parte escrita*/
+
+	text-decoration:none;
+
+}
+
+
+.menu2{/*Parte visual*/
+
+	text-decoration:none;
+}
+
+
+
+.rodapé{
+	text-decoration:none;
+	
+
+}
+
+.cabeçalho{
+
+	
+	background-image: url(/IMG/capa.png);
+	
+	
+	width:100%;
+
+
+
+}
+
+
+.menu{
+
+	background: url("/IMG/capa.png")
+	border 1px solid red;
+	/*padding:30px; /*Espaçamento interno */
+	/**/
+}
+
+.principal{
+	border: 1px solid red;
+	width: 900px;
+
+        
+}
+
+
+
+.container-cabeçalho{
+	background-image: url("/IMG/capa.png");
+	font: 16px Arial,Helvetica,sans-serif;
+
+}
