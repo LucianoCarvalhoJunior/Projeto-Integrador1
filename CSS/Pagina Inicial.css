@@ -85,5 +85,6 @@
 .container-cabeçalho{
 	background-image: url("/IMG/capa.png");
 	font: 16px Arial,Helvetica,sans-serif;
+	size: 20px;
 
 }
