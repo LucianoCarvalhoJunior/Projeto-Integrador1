@@ -1,0 +1,31 @@
+.container{/*Bloco da página inteira*/
+
+	background-color: white;;
+	width: 99%;
+	
+
+}
+
+.cabeçalho{
+
+	margin: 0,4% ;
+	background-image: url(/IMG/capa.png);
+	padding: 2%;
+	word-spacing: 15px;
+	text-align: center;
+	border-radius: 10px;
+	
+}
+
+.cabeçalho a{
+
+	text-decoration:none;
+	text-decoration: black;
+
+}
+
+.menu{
+
+
+	
+}

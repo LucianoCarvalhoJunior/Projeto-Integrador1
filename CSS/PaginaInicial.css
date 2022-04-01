@@ -1,0 +1,99 @@
+
+
+.container{/*Bloco da página inteira*/
+
+	background-color: white;;
+	height:100vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content:center ;
+	
+	
+
+}
+
+.cabeçalho{
+
+	width: 100%;
+	margin: auto;
+	background-image: url(/IMG/capa.png);
+	padding: 2%;
+	word-spacing: 15px;
+	text-align: center;
+	border-radius: px;
+	text-decoration: white;
+
+}
+
+.cabeçalho a{
+
+	text-decoration:none;
+	
+
+}
+
+.corpo{
+	
+	align-items: center;
+	width: 70%;
+	
+}
+
+.menu1{/*Parte escrita*/
+
+	width: 90%;
+	background-color: #00897a;
+    padding: 10px 30px 10px;
+    margin-top:  10px;
+	margin-left: 30%;
+    border-radius: 10px;
+	
+	padding-top: 5%;
+	
+	
+	
+
+}
+
+
+
+.menu2{/*Parte visual*/
+
+	width:40%;
+	margin-left: 50%;
+	margin-top: 20px;
+	
+	
+	text-decoration:none;
+}
+
+
+.barra{
+
+  background-color: black;
+  
+  width: 100%;
+  height: 20px;
+}
+
+
+.rodapé{
+
+	width: 100%;
+	height: 100px;
+	background-color: #00897a;
+    border-radius: 0px;
+
+}
+
+.contato{
+
+	text-align: center;
+	text-decoration-color: black;
+	
+	
+}
+
+
