@@ -6,6 +6,7 @@ body{
     width: 100%;
     height: 100%;
     margin: 0;
+    background-image: url(/IMG/Preenchimento_de_Cor_1.png);
     
 }
 .logo{
@@ -23,12 +24,18 @@ body{
 
 }
 #paginas a{
-    display: inline-block;
+    /*display: inline-block;*/
     padding-left: 1%;
     padding-top: 2.3%;
-    font-weight: bold;
-    color: black;    
-    font-size: 20px;
+    /*font-weight: bold;*/
+    color: white;    
+    /*font-size: 20px;*/
+
+    text-decoration:none;
+    display: inline-flex;
+    gap: 10px;
+    color: white;
+    
     
 }
 
@@ -80,11 +87,12 @@ body{
 
 .rodapé{
 
-	width: 100%;
-	height: 1%;
-	background-color: #000000;
-    border-top-left-radius: 30%;
-    border-top-right-radius: 30%;
+    margin-top: 20px;
+    justify-content: center;
+    background-color: #00897a;
+    color: white;
+    display: flex;
+    padding: 10px;
 
 }
 
@@ -96,7 +104,7 @@ body{
 	
 }
 .contato p {
-    padding-top: 10px;
+    
     font-weight: bold;
     color: rgb(255, 255, 255);    
     font-size: 21px;
