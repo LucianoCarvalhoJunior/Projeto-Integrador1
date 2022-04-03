@@ -11,6 +11,7 @@
 body{
     font-size: 100%;
     background:#808080;
+    
 }
 
 .cabeçalho{
@@ -36,6 +37,7 @@ body{
 }
 
 .texto-cabeçalho{
+    
     text-decoration:none;
     display: inline-flex;
     gap: 10px;

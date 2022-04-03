@@ -1,35 +1,41 @@
+
+
+
+
 body{
     width: 100%;
     height: 100%;
     margin: 0;
+    background-image: url(/IMG/Preenchimento_de_Cor_1.png);
+    
 }
 .logo{
     float: left;
-    padding: 1.6%;
+    padding: 1%;
     padding-left: 20%;
-    width: 15%;    
+    width: 15%;
+    padding-right: 15%;
+        
 }
-.logo2{
-    padding: 0.8%;
-    display: inline-block;
-}
-.logo2 a{
-    padding-left: 45%;
-    
-}
+
 .header-1{
     background-color: #00897a;
     height: 80px;
 
 }
 #paginas a{
-    display: inline-block;
-    float: left;
+    /*display: inline-block;*/
     padding-left: 1%;
-    padding-top: 2.5%;
-    font-weight: bold;
-    color: black;    
-    font-size: 20px;
+    padding-top: 2.3%;
+    /*font-weight: bold;*/
+    color: white;    
+    /*font-size: 20px;*/
+
+    text-decoration:none;
+    display: inline-flex;
+    gap: 10px;
+    color: white;
+    
     
 }
 
@@ -46,6 +52,7 @@ body{
    padding-left: 30%;
    width: 40% ; 
    border-radius: 150px;
+   
 }
 
 .menu2{/*Parte escrita*/
@@ -56,7 +63,6 @@ body{
 	margin-left: 5%;
     border-radius: 10px;
 	padding-top: 5%;
-     border-radius: 150px;
 }
 .vaga2{
    padding-left: 30%;
@@ -81,11 +87,12 @@ body{
 
 .rodapé{
 
-	width: 100%;
-	height: 1%;
-	background-color: #000000;
-    border-top-left-radius: 30%;
-    border-top-right-radius: 30%;
+    margin-top: 20px;
+    justify-content: center;
+    background-color: #00897a;
+    color: white;
+    display: flex;
+    padding: 10px;
 
 }
 
@@ -97,7 +104,7 @@ body{
 	
 }
 .contato p {
-    padding-top: 10px;
+    
     font-weight: bold;
     color: rgb(255, 255, 255);    
     font-size: 21px;
