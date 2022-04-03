@@ -18,12 +18,13 @@
 
 	width: 100%;
 	margin: auto;
+	background-color: #00897a;
 	background-image: url(/IMG/capa.png);
 	padding: 2%;
 	word-spacing: 15px;
 	text-align: center;
 	border-radius: px;
-	text-decoration: white;
+	
 
 }
 
