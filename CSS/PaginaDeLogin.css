@@ -24,8 +24,13 @@
 
 }
 
-.menu{
 
-
-	
+.texto-cabeçalho{
+    
+    text-decoration:none;
+    display: inline-flex;
+    gap: 10px;
+    color: black;
+    
+    
 }
