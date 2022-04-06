@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="CSS\index.css" media="screen" />
+</head>
+<body>
+    <!--Cabeçalho-->
+    <div id="DivSuperior">UniVagas</div>
+    <!--DivPai-->
+    <div class="Principal">
+        <div class="Nome"> Nome:
+
+            <!--Campo específico nome-->
+            <form action="CadastraNome" method="post">
+                <div>
+                    <label for="CampoNome"></label>
+                    <input type="text" id="CampoNome" />
+                </div>
+            </form>
+        </div>
+
+        <!--Campo específico email-->
+        <div class="Email"> Email:
+            <form action="CadastraEmail" method="post">
+                <div>
+                    <label for="CampoEmail"></label>
+                    <input type="email" id="CampoEmail" />
+                </div>
+            </form>
+        </div>
+
+        <!--Campo específico senha-->
+        <div class="Senha"> Senha:
+            <form action="CadastraSenha" method="post">
+                <div>
+                    <label for="CampoSenha"></label>
+                    <input type="password" id="CampoSenha" />
+                </div>
+            </form>
+        </div>
+
+        <!--Campo específico repetir senha-->
+        <div class="RepetirSenha"> Repetir Senha:
+            <form action="RepeteSenha" method="post"></form>
+                <div>
+                    <label for="CampoRepetirSenha"></label>
+                    <input type="password" id="CampoRepeteSenha" />
+                </div>
+            </form>
+        </div>
+
+        <!--Botão cadastro-->
+        <button onclick() id="BotaoCadastrar">Cadastrar</button>
+
+        
+
+    </div>
+
+    <!--Rodapé-->
+    <div class="DivInferior">
+        <div id="TextoAjuda">Ainda precisa de ajuda?</div>
+        <div id="TextoProfissional">Deixe-nos agora sobre seu problema e um profissional entrará em contato com você</div>
+        <div id="ColocarEmail"></div>
+    </div>
+</body>
+</html>
