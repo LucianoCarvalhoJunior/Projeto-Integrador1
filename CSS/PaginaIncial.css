@@ -1,0 +1,25 @@
+  /* Remova as bordas inferiores e arredondadas padrão da barra de navegação */ 
+  .navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+  
+  /* Adicione uma cor de fundo cinza e algum preenchimento ao rodapé */
+  footer {
+    background-color: #101010;
+    padding: 25px;
+    color: white;
+  }
+  
+.carousel-inner img {
+    width: 100%; /* Definir largura para 100% */
+    margin: auto;
+    min-height:200px;
+}
+
+/* Oculte o texto do carrossel quando a tela tiver menos de 600 pixels de largura */
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none; 
+  }
+}
