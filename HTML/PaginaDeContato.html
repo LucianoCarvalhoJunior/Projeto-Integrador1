@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-  <title>Contato</title>
+  <title>Bootstrap Example</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/CSS" href="/CSS/PaginaDeContato.css"/>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/CSS" href="/CSS/PaginaDeContato.css"/>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
+ 
 </head>
 <body>
 
@@ -24,72 +24,100 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Início</a></li>
-        <li><a href="/HTML/PaginaDeExibiçãoDeVagas.html">Vagas</a></li>
-        <li><a href="/HTML/PaginaDeContato.html">Contato</a></li>
+        <li class="active"><a href="/HTML/PaginaInicial.html">Início</a></li>
+        <li><a href="#">Vagas</a></li>
+        <li><a href="#">Contato</a></li>
         
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Entrar </a></li>
+        <li><a href="/HTML/PaginaDeLogin.html"><span class="glyphicon glyphicon-log-in"></span> Entrar</a></li>
       </ul>
     </div>
   </div>
 </nav>
 
-<div class="formulario">
+<div class="jumbotron">
+  <div class="container text-center">
+    <h2>Formulario de contato:</h2>      
+    <p>Preencha e nos envie sua vaga!</p>
 
-    <form class="was-validated">
-        <div class="mb-3">
-          <label for="validationTextarea">Textarea</label>
-          <textarea class="form-control is-invalid" id="validationTextarea" placeholder="Required example textarea" required></textarea>
-          <div class="invalid-feedback">
-            Please enter a message in the textarea.
-          </div>
+    <form>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputEmail4">Email do RH da empresa:</label>
+          <input type="email" class="form-control" id="inputEmail4" placeholder="Email..."><!--Email do RH-->
         </div>
-      
-        <div class="custom-control custom-checkbox mb-3">
-          <input type="checkbox" class="custom-control-input" id="customControlValidation1" required>
-          <label class="custom-control-label" for="customControlValidation1">Olha só, esse checkbox personalizado</label>
-          <div class="invalid-feedback">Exemplo de texto para feedback inválido</div>
+        <div class="form-group col-md-6">
+          <label for="inputPassword4">Nome da Empresa:</label>
+          <input type="name" class="form-control" id="inputPassword4" placeholder="Nome..."><!--Nome da Empresa-->
         </div>
-      
-        <div class="custom-control custom-radio">
-          <input type="radio" class="custom-control-input" id="customControlValidation2" name="radio-stacked" required>
-          <label class="custom-control-label" for="customControlValidation2">Clique neste radio personalizado</label>
+      </div>
+      <div class="form-group">
+        <label for="inputAddress">Informações adicionais sobre a vaga:</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="Fale um pouco sobre a vaga...."><!--Texto de informações adicionais-->
+      </div>
+      <div class="form-group">
+        <label for="inputAddress2">Requisitos:</label>
+        <input type="text" class="form-control" id="inputAddress2" placeholder="Formação,conhecimentos e etc...."><!--Texto de requisitos-->
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputCity">Cidade</label>
+          <input type="text" class="form-control" id="inputCity" ><!--Cidade-->
         </div>
-        <div class="custom-control custom-radio mb-3">
-          <input type="radio" class="custom-control-input" id="customControlValidation3" name="radio-stacked" required>
-          <label class="custom-control-label" for="customControlValidation3">Ou clique neste outro radio personalizado</label>
-          <div class="invalid-feedback">Mais exemplo de texto para feedback inválido</div>
-        </div>
-      
-        <div class="form-group">
-          <select class="custom-select" required>
-            <option value="">Abra este menu select</option>
-            <option value="1">Um</option>
-            <option value="2">Dois</option>
-            <option value="3">Três</option>
+
+        <div class="form-group col-md-4">
+          <label for="inputState">Número de vagas</label>
+          <select id="inputState" class="form-control"><!--Número de vagas-->
+            <option selected>Selecione...</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3 ou mais</option>
           </select>
-          <div class="invalid-feedback">Exemplo de feedback invalido para o select</div>
         </div>
-      
-        <div class="custom-file">
-          <input type="file" class="custom-file-input" id="validatedCustomFile" required>
-          <label class="custom-file-label" for="validatedCustomFile">Escolher arquivo...</label>
-          <div class="invalid-feedback">Exemplo de feedback inválido para input file</div>
+        
+        <div class="form-group col-md-2">
+          <label for="inputZip">Imagem da vaga</label>
+        
+          <input type="file" class="custom-file-input" id="validatedCustomFile" required><!--Botão de escolher arquivo-->
+
         </div>
-      </form>
-    
+      </div>
 
 
+      <div class="form-group">
+        <div class="form-check">
+
+          <br>
+          
+          
+        </div>
+
+      </div>
+      <br>
+      <br>
+      <br>
+      <button type="submit" class="btn btn-primary">Enviar</button><!--Botão de enviar-->
+    </form>
+   
+    </form>
 
 
-
+  </div>
 </div>
-<br><br>
+
+
+
+
+
+
+
 
 <footer class="container-fluid text-center">
-  <p>Footer Text</p>
+  <p> 
+    <h4>Obrigado por compartilhar sua vaga conosco!</h4>
+  </p>
+
 </footer>
 
 </body>
