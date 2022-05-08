@@ -5,10 +5,11 @@
   }
   
   /* Adicione uma cor de fundo cinza e algum preenchimento ao rodapé */
-  footer {
-    background-color: #101010
-    ;
+footer {
+
+    background-color: #101010;
+    color: white;
     padding: 25px;
-  }
+}
 
  
