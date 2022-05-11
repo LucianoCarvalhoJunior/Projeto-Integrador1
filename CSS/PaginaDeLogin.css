@@ -10,16 +10,26 @@
 }
 
 .navbar {
+
     margin-bottom: 0;
     border-radius: 0;
   }
 
 .texto-main{
-    font-
+    
     font-family: 'Cabin', sans-serif;
 	color: black;
 	text-align: center;
 
+}
+
+
+.container{
+    width: 100%;
+    padding-right: 0;
+    padding-left:  0;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 main{
@@ -33,17 +43,20 @@ main{
     border-radius: 6px;
 
 	padding: 1% 3% 1%;
-    margin-top:  15%;
+    margin-top:  10%;
 	margin-left: 31%;
-	margin-bottom: 10%;
+	margin-bottom: 5%;
 
     box-shadow: 0 0 6px #888;
+
 }
 
 
 
 form{
-    
+
+    padding-right: 15px;
+    padding-left:  15px;
     size:40vh;
     display: flex;
     flex-direction: column;
