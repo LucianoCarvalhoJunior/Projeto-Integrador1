@@ -62,6 +62,19 @@ const { restart } = require('nodemon')
 
     }
 
+
+
+
+
+
+
+
+
+
+
+
+
+    
     //Registro de usuarios(Rota)
     app.post('/auth/register',async(req,res)=> {
         
@@ -121,8 +134,20 @@ const { restart } = require('nodemon')
 
 
 
-    //Login de usuario
 
+
+
+
+
+
+
+
+
+
+
+
+
+    //Login de usuario
     app.post("/auth/login",async(req,res)=>{
 
         const {email,password}=req.body
@@ -169,11 +194,6 @@ const { restart } = require('nodemon')
 
 
     })
-
-
-
-
-
 
 
 
