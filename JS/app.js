@@ -15,7 +15,7 @@
 
     //Models
     const User = require('./User')
-const { restart } = require('nodemon')
+    const { restart } = require('nodemon')
 
     //Rota de acesso publico
     app.get('/',(req,res) =>{
@@ -74,7 +74,7 @@ const { restart } = require('nodemon')
 
 
 
-    
+
     //Registro de usuarios(Rota)
     app.post('/auth/register',async(req,res)=> {
         
